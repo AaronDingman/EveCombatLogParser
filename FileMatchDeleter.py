@@ -5,7 +5,7 @@ list = []
 # C:\\Users\\xxx\\Documents\\TestInputDir
 originalDir = 'C:\\Users\\xxx\\Documents\\TestInputDir'
 # C:\\Users\\xxx\\Documents\\TestDirToDeleteFrom
-targetDir = 'C:\\Users\\Patchouli\\Documents\\PyTesting - Copy\\'
+targetDir = 'C:\\Users\\xxx\\Documents\\PyTesting - Copy\\'
 for file in os.listdir(originalDir): # For each file in the directory 
     list = os.listdir(originalDir) # Sets the file names from the directory to a list
     if file in os.listdir(targetDir): # If the file is in the target file to be deleted
