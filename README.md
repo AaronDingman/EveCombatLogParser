@@ -1,5 +1,12 @@
-# PythonFileMatchDeleter
-Deletes files found in one directory from another directory. 
+# EveCombatLogParser
+Takes combat log information from eve that looks like:
 
-This is useful if you extracted many files to a directory that they werent inteded for and manual deletion would take too long.
-Extract the file again to a different directory, and set that as the input directory. Set the targetDir to the directory you want to delete from. Run the program and all files found in the input directory will be deleted from the target directory. 
+20:38:51	Combat	313 from xx xxx[xxxx](Jackdaw) - Caldari Navy Mjolnir Light Missile - Hits
+20:38:51	Combat	469 from xx xxx[xxxx](Jackdaw) - Caldari Navy Mjolnir Light Missile - Hits
+20:38:58	Combat	313 from xx xxx[xxxx](Jackdaw) - Caldari Navy Mjolnir Light Missile - Hits
+20:38:58	Combat	469 from xx xxx[xxxx](Jackdaw) - Caldari Navy Mjolnir Light Missile - Hits
+
+And gives you an average damage, user who did the damage, and with what ship they are flying; it looks like this:
+
+Avg Damage: 124.83 from xx xxx[xxxx] Flying: Jackdaw
+Avg Damage: 60.94 from yyy[yyyy] Flying: Svipul
